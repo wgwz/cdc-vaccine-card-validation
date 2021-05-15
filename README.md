@@ -16,6 +16,17 @@ problem I wanted to share it. That said, there are real data privacy
 concerns that come along with using a service like AWS Textract and
 those should be taken into consideration.
 
+# Validation? Not really..
+
+The script here does not actually validate the card. It's a bit of a
+misnomer for me to name it as such. All that the script concludes is
+that it found the "COVID-19 Vaccination Record Card" text somewhere in
+the image. Therefore as it stands, the validation provided in this repo
+could easily be cheated if someone were to print out a piece of paper
+with the same text printed on it. So this repo really provides a
+ground-level starting point for the validation of these cards. It is a
+crude check, which might be helpful in certain situations.
+
 # How it works?
 
 This is a very simple script, it was a proof-of-concept. It is not
